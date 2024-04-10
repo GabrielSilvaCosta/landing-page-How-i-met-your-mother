@@ -7,7 +7,6 @@ menuIcon.addEventListener("click", () => {
 });
 
 function toggleMenuIcon() {
-  // Verifica se o ícone atual é bx-menu ou bx-x e troca para o outro
   if (menuIcon.classList.contains("bx-menu")) {
     menuIcon.classList.remove("bx-menu");
     menuIcon.classList.add("bx-x");

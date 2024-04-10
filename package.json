@@ -1,0 +1,12 @@
+{
+  "name": "landing-page-how-i-meet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
