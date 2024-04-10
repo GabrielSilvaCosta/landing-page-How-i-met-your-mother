@@ -1,12 +1,10 @@
-let menuIcon = document.getElementById("menu-icon");
-let navbar = document.querySelector(".navbar");
+const menuIcon = document.querySelector(".bx-menu");
+const navbar = document.querySelector(".navbar");
 
-menuIcon.addEventListener("click", () => {
-  navbar.classList.toggle("active");
-  toggleMenuIcon();
-});
+menuIcon.addEventListener("click", toggleMenuIcon);
+navbar.addEventListener("click", toggleMenuIcon);
 
 function toggleMenuIcon() {
-  menuIcon.classList.toggle("bx-menu");
-  menuIcon.classList.toggle("bx-x");
+    menuIcon.classList.toggle("active");
+    navbar.classList.toggle("active");
 }
