@@ -1,10 +1,18 @@
-const menuIcon = document.querySelector(".bx-menu");
-const navbar = document.querySelector(".navbar");
+let menuIcon = document.getElementById('menu-icon');
+let navbar = document.querySelector('.navbar');
 
-menuIcon.addEventListener("click", toggleMenuIcon);
-navbar.addEventListener("click", toggleMenuIcon);
+menuIcon.addEventListener('click', () => {
+    navbar.classList.toggle('active');
+    toggleMenuIcon();
+});
 
 function toggleMenuIcon() {
-    menuIcon.classList.toggle("active");
-    navbar.classList.toggle("active");
+    // Verifica se o ícone atual é bx-menu ou bx-x e troca para o outro
+    if (menuIcon.classList.contains('bx-menu')) {
+        menuIcon.classList.remove('bx-menu');
+        menuIcon.classList.add('bx-x');
+    } else {
+        menuIcon.classList.remove('bx-x');
+        menuIcon.classList.add('bx-menu');
+    }
 }
