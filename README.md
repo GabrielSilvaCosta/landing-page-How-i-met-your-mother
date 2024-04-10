@@ -1,0 +1,1 @@
+O projeto consistiu na criação de uma página de aterrissagem para a série "How I Met Your Mother", utilizando HTML, CSS e JavaScript. Foram integrados ícones usando Boxicons e Font Awesome, e um menu de navegação responsivo foi implementado.
