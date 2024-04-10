@@ -2,11 +2,14 @@
   "name": "landing-page-how-i-meet",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "dev": "vite --open"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "vite": "^5.2.8"
+  }
 }
